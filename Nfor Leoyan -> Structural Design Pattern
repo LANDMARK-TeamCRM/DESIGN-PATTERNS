@@ -1,0 +1,21 @@
+Structural patterns: The structuaral pattern of the GOF design patterns is sub diveded into 7 branches namely
+
+- Adapter
+- Bridge
+-Composite
+- Decoration
+- Facade
+-Flyweight
+- Proxy
+
+Intro: 
+Here is a brief summary explaining the functions of the different structural design patterns and how they can be implemented in a CRM system
+
+1) Adapter: The adapter converts the interface of a class into another interface clients expect. The knowledge of adapters  can be better explained amd understood when its been implemted in a CRM system. 
+For Example: We have a legacy datasource which countaims the credentials of users a system and this data needs to be intergrated into the new modern CRM database, the adapter is used to convert the data fround in this legacy datasource into one which is modem and is upto date
+forexample an adapter is used to covert  address into student address whc us supported hy the CRM system
+
+2) Brigde: The bridge decouples abstraction (what) from the implementation(how) 
+this can be implemented in the CRM System in the sense that. A CommunicationChannel is created with methods such as SendMessages, ReceiveMessages, ReceieveNots with implemntation being EmailChannel, PhoneChannel, ChatChannel. The CRM  uses the CommunicationChannel abstraction to send messages receives messsages and nots wiout having to understand how the channel actually works 
+
+3) Composite: Creates an objects that is used to define the design into a hierachy tree structure to ease understanding and explanation of how a design is segmented . The knowledge of composite can be implented in a CRM system in the sense that, you can represent a salespipeline with various stages and substages, allowing for flexible organization and navigation
